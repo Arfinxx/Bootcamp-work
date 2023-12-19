@@ -13,6 +13,14 @@ console.log(typeof four);
 console.log(typeof five);
 console.log(typeof six);
 
+//number
+//string
+//boolean
+//number
+//string
+//Undefined
+
+
 four = "Hello!";
 five = false;
 six = 23;
@@ -21,3 +29,7 @@ six = 23;
 console.log(typeof four);
 console.log(typeof five);
 console.log(typeof six);
+
+//string
+//boolean
+//number
