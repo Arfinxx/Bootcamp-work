@@ -23,3 +23,5 @@ var oddOrEven = originalArray.map(function(num) {
     return 'odd'
   }
 });
+
+console.log(oddOrEven);

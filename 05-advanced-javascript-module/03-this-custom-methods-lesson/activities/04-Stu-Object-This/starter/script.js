@@ -1,15 +1,21 @@
-console.log(this);
+// console.log(this);
+//Logs window
 
-function helloThis() {
-  console.log('Inside this function, this is ' + this);
-}
+// function helloThis() {
+//   console.log('Inside this function, this is ' + this);
+// }
+// // Logs Object window
+// helloThis();
 
-var child = {
-  age: 10,
-  ageTenYears: function () {
-    console.log(this.age + 10);
-  },
-};
+
+// var child = {
+//   age: 10,
+//   ageTenYears: function () {
+//     console.log(this.age + 10);
+//   },
+// };
+// // Logs 20
+// child.ageTenYears();
 
 var investor = {
   name: 'Cash Saver',
@@ -20,3 +26,5 @@ var investor = {
     },
   },
 };
+// Logs 5750
+investor.investment.investmentGrowth();
